@@ -9,6 +9,7 @@ globals:
   Uint8Array:   false
   Int16Array:   false
   Uint16Array:  false
+  Uint32Array:  false
   Float32Array: false
 
 rules:
@@ -45,7 +46,7 @@ rules:
   max-nested-callbacks:   [ 1, 4 ]
   # string can exceed 80 chars, but should not overflow github website :)
   max-len:                [ 2, 120, 1000 ]
-  new-cap:                2
+  #new-cap:                2
   new-parens:             2
   # Postponed
   #newline-after-var:      2
